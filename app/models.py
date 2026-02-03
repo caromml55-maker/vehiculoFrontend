@@ -10,4 +10,5 @@ class Vehiculo(Base):
     fabricacion = Column(Integer, nullable=False)
     valor_comercial = Column(Float, nullable=False)
     
-   
+    impuesto = Column(Float, nullable=False)
+    codigo_revision = Column(String, nullable=False)
